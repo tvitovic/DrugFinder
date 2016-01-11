@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ime_prezime" />
+
+    <EditText
+        android:id="@+id/ime_prezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pol" />
+
+        <EditText
+            android:id="@+id/pol"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/starost" />
+
+        <EditText
+            android:id="@+id/starost"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tezina" />
+
+        <EditText
+            android:id="@+id/tezina"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pocetak_nrl" />
+
+        <EditText
+            android:id="@+id/pocetak_nrl"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kraj_nrl" />
+
+        <EditText
+            android:id="@+id/kraj_nrl"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nrl" />
+
+    <EditText
+        android:id="@+id/poruka"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="@string/opis_nrl"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        android:gravity="start" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pocetak_upotrebe" />
+
+        <EditText
+            android:id="@+id/pocetak_upotrebe"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kraj_upotrebe" />
+
+        <EditText
+            android:id="@+id/kraj_upotrebe"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+    </LinearLayout>
+    <Button android:id="@+id/prijavi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/prijavi"
+        android:textColor="@color/white"
+        android:background="@color/button_red"/>
+
+</LinearLayout>

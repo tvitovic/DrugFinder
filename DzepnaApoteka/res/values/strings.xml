@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Džepna apoteka</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="button_nearest">Pronadji najbližu apoteku</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>INFO</item>
+        <item>LEKOVI</item>
+        <item>APOTEKE</item>
+        <item>MAPA</item>
+        <item>KONTAKT</item>
+    </string-array>
+    <string-array name="opstine_array">
+        <item>Stari grad</item>
+        <item>Čukarica</item>
+        <item>Novi Beograd</item>
+        <item>Palilula</item>
+        <item>Savski venac</item>
+        <item>Vračar</item>
+        <item>Rakovica</item>
+        <item>Voždovac</item>
+        <item>Zemun</item>
+        <item>Zvezdara</item>
+        <item>Barajevo</item>
+        <item>Grocka</item>
+        <item>Mladenovac</item>
+        <item>Lazarevac</item>
+        <item>Obrenovac</item>
+        <item>Sopot</item>
+        <item>Surčin</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <!--
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    -->
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="pretraga_lekova">Pretraga lekova...</string>
+    <string name="prijavi_nezeljena">Prijavi neželjena dejstva</string>
+    <string name="drug_name">Naziv:</string>
+    <string name="ingredients">Sastav:</string>
+    <string name="price_range">Cenovni opseg:</string>
+    <string name="ime_prezime">Ime i prezime:</string>
+    <string name="naslov">Naslov:</string>
+    <string name="email">E-mail:</string>
+    <string name="poruka">Poruka:</string>
+    <string name="posalji">Pošalji</string>
+    <string name="naziv">Naziv:</string>
+    <string name="opstina">Opstina:</string>
+    <string name="adresa">Adresa:</string>
+    <string name="telefon">Telefon:</string>
+    <string name="radno_vreme">Radno vreme:</string>
+    <string name="pozovi_apoteku">Pozovi apoteku</string>
+    <string name="pol">Pol:</string>
+    <string name="starost">Starost:</string>
+    <string name="tezina">Težina:</string>
+    <string name="pocetak_nrl">Početak NRL:</string>
+    <string name="kraj_nrl">Kraj NRL:</string>
+    <string name="opis_nrl">Opis efekta neželjene reakcije na lek...</string>
+    <string name="pocetak_upotrebe">Početak upotrebe:</string>
+    <string name="kraj_upotrebe">Kraj upotrebe:</string>
+    <string name="prijavi">Prijavi</string>
+    <string name="nrl">*NRL - neželjena reakcija na lek</string>
+    <string name="upozorenje">Svrha aplikacije je upoznavanje pacijenata sa detaljima lekova i lokacijom apoteka u Beogradu. Za vise informacija o samim lekovima potrebno je konsultovati se sa lekarom ili farmaceutom.Usled različitih promena, neke informacije o lekovima i apotekama mogu biti netačne i izvinjavamo se na tome. Kreator aplikacije nije odgovoran za tačnost informacija.</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp" >
+    
+    <TextView android:layout_alignParentTop="true"
+        android:id="@+id/name_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/naziv"
+        android:layout_margin="5dp"/>
+    <TextView android:layout_toRightOf="@id/name_label"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+	/>
+    <TextView android:layout_below="@id/name_label"
+        android:id="@+id/county_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/opstina"
+        android:layout_margin="5dp"/>
+    <TextView android:layout_toRightOf="@id/county_label"
+        android:layout_below="@id/name_label"
+        android:id="@+id/county"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+	/>
+    <TextView android:layout_below="@id/county_label"
+        android:id="@+id/address_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/adresa"
+        android:layout_margin="5dp"/>
+    <TextView android:layout_toRightOf="@id/address_label"
+        android:layout_below="@id/county"
+        android:id="@+id/address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+	/>
+    <TextView android:layout_below="@id/address_label"
+        android:id="@+id/worktime_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/radno_vreme"
+        android:layout_margin="5dp"/>
+    <TextView android:layout_toRightOf="@id/worktime_label"
+        android:layout_below="@id/address"
+        android:id="@+id/worktime"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+	/>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/worktime_label" >
+    <TextView android:layout_below="@id/worktime_label"
+        android:id="@+id/phones_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/telefon"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"/>
+    <TextView 
+        android:layout_below="@id/worktime"
+        android:id="@+id/phones"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+	/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/pozovi_apoteku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_red"
+        android:clickable="true"
+        android:text="@string/pozovi_apoteku"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" />
+    
+
+</RelativeLayout>
+

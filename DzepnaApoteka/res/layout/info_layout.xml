@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp" >
+    
+    <Button android:id="@+id/prikazi_najblizu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/button_nearest"
+        android:textColor="@color/white"
+        android:background="@color/button_red"
+        
+        />
+    <ListView 
+        android:id="@+id/lista_vesti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"></ListView>
+    
+    <TextView android:id="@+id/upozorenje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/upozorenje"
+        ></TextView>
+    
+
+</LinearLayout>
